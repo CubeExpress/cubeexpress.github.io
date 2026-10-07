@@ -1,1 +1,1 @@
-print("hello")
+print("Welcome to Cube Express")
