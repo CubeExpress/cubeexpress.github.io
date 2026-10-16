@@ -1,0 +1,111 @@
+* {
+    font-family: sans-serif;
+}
+
+html {
+    min-height: 100vh;
+}
+
+/* Header styles */
+
+header {
+    height: 3em;
+    display: grid;
+    padding: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background: #C3AFFF;
+}
+
+.logo-holder {
+    height: 3em;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-holder span {
+    padding-left: 1em;
+}
+
+.logo-holder img {
+    height: 100%;
+}
+
+.motto {
+    text-align: center;
+}
+
+nav {
+    margin-left: auto;
+    display: flex;
+}
+
+nav a {
+    padding: 2px;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a span {
+    padding-left: 0.5em;
+    padding-right: 0.25em;
+}
+
+nav a img {
+    height: 1.5em;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.5s, left 0.5s;
+}
+
+nav a:hover::after {
+    width: 100%;
+    left: 0px;
+}
+
+nav a.current {
+    border: 2px solid black;
+}
+
+/* Body styles */
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* Footer styles */
+
+footer {
+    height: 5em;
+    padding: 8px;
+    background: #C3AFFF
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+footer .disclaimer {
+    width: 100%;
+    text-align: right;
+    font-size: smaller;
+}
