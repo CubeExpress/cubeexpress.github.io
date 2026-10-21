@@ -1,0 +1,96 @@
+<!-- Made By: Christina -->
+<!-- 
+This is the home page for CubeExpress, 
+It has the background image, 
+the title, the description, 
+the buttons, the four feature boxes, 
+and the 3D model. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<script type="module" src="https://cdn.spline.design/@splinetool/viewer@2.0.98/build/spline-viewer.webgpu.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="custom.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - CubeExpress</title>
+</head>
+<body>
+
+<!-- This is the title, description and the background image -->
+    <div class="image-container"> 
+        <img src="Resources/Dreamy Lavender Cream Gradient.png" alt="Image">
+        
+        <div class="content">
+
+        <h1 class="cubeexpress">
+            <span>Cube</span>
+            <span>Express</span>
+        </h1>
+        
+        <div class="description">
+            <h2>From cube to car in seconds.</h2>
+
+            <p>
+                A compact, smart, and stylish 
+                transformable vehicle for the future.
+            </p>
+
+        </div>
+
+<!-- These are the buttons -->
+        <button> Buy Now →  </button>
+
+    <!-- This button ships the user to the contact us page -->  
+    <a href="../team.html" class="button1">
+        Our Team
+    </a>
+        
+<!-- These are for the square and the text under them -->
+<div class="squares-container">
+
+    <div class="feature">
+        <div class="square">
+            <img src="Resources/transform.svg" alt="Transform">
+        </div>
+        <p>Transform</p>
+    </div>
+
+    <div class="feature">
+        <div class="square">
+            <img src="Resources/compact.svg" alt="Compact">
+        </div>
+        <p>Compact</p>
+    </div>
+
+    <div class="feature">
+        <div class="square">
+            <img src="Resources/lightning.svg" alt="Electric">
+        </div>
+        <p>Electric</p>
+    </div>
+
+    <div class="feature">
+        <div class="square">
+            <img src="Resources/diamond.svg" alt="Modern">
+        </div>
+        <p>Modern</p>
+    </div>
+
+</div>
+
+        </div>
+
+        <!-- This the 3D Model Container -->
+        <div class="spline-container">
+            <spline-viewer
+                loading="eager"
+                url="https://prod.spline.design/xxV0dhOcbFnOfdZ4/scene.splinecode">
+            </spline-viewer>
+        </div>
+
+    </div>
+</body>
+</html>
+

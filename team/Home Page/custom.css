@@ -1,0 +1,191 @@
+/*Checks the size of the window*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif, TT Norms;
+}
+/* This is the container for the background image */
+.image-container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* This is the position for the background image */
+.image-container > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* This controls the position of the text */
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    padding-top: clamp(50px, 20vh, 240px);
+    margin-left: 5%;
+}
+
+/* Cube Express heading *****************************************************************************************************/
+.cubeexpress {
+    margin: 0;
+    font-size: clamp(100px, 8vw, 90px);
+    line-height: 0.95;
+    text-align: left;
+}
+
+/* This makes the two words ("Cube" and "Express") appear on seperate lines. */
+.cubeexpress span {
+    display: block;
+}
+
+/* This colors the two words separately */
+.cubeexpress span:first-child {
+    color: #8a5cec;
+}
+
+.cubeexpress span:last-child {
+    color: black;
+}
+
+/* Description section */
+.description {
+    margin-top: 15px;
+    text-align: left;
+}
+
+/* Bold description heading */
+.description h2 {
+    font-size: clamp(22px, 3vw, 34px);
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+/* Smaller description */
+.description p {
+    font-size: clamp(13px, 1.5vw, 17px);
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0;
+    max-width: 800px;
+}
+
+/*Buttonssss*******************************************************************************************************************/
+
+button {
+    margin-top: clamp(20px, 5vh, 80px);
+    background-image: linear-gradient(to right, #8151e9, #986ef2);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    margin-top: 40px; /*Moves button down*/
+    border-radius: 20px; /* Makes the corners round */
+}
+
+.button1 {
+    display: inline-block;
+    color: #8151e9;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px 25px;
+    font-size: 27px;
+    cursor: pointer;
+
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 20px;
+
+    text-decoration: none; /* Removes underline */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* When mouse hovers over the button it changes color */
+.button1:hover {
+    background-color: #8151e9;
+    color: white;
+}
+
+/* These are the 4 squares*******************************************************************************************************************/
+
+/* Container for all four squares */
+.squares-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+/* Keeps each icon and its text together */
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+}
+
+/* The squares */
+.square {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Image inside squares */
+.square img {
+    position: static;
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+/* Text underneath each icon */
+.feature p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: clamp(13px, 1.5vw, 17px);
+    text-align: center;
+    color: black;
+}
+
+/*3d Cube*******************************************************************************************************************/
+
+/* This controls the cube's position */
+.spline-container {
+    position: absolute;
+
+    top: 0%;
+    right: -20%;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+}
+
+/* This controls the app am using: https://spline.design/ */
+/* If you want to change anything about the cube, just tell me and give me your email so I can add you to spline */
+.spline-container spline-viewer {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* This keeps the cube behind the text */
+.content {
+    position: relative;
+    z-index: 2;
+}
