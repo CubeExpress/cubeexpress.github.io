@@ -1,7 +1,7 @@
 /* General Style and Background */
-body {
+main {
     font-family: 'Segoe UI' , Tahoma, Geneva, Verdana,sans-serif;
-    Background-color: url('../team/Home Page/Resources/Dream Lavender Cream Gardien.png');
+    Background-color: url('img/Dream Lavender Cream Gardien.png');
     margin: 0;
     padding: 40px 20px;
     display: flex;

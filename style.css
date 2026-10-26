@@ -1,5 +1,6 @@
 * {
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 html {
@@ -9,7 +10,7 @@ html {
 /* Header styles */
 
 header {
-    height: 3em;
+    height: 4em;
     display: grid;
     padding: 8px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -94,7 +95,7 @@ body {
 /* Footer styles */
 
 footer {
-    height: 5em;
+    height: 6em;
     padding: 8px;
     background: #C3AFFF
 }

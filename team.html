@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meet the Team</title>
+    <title>CubeExpress - Meet the Team</title>
+    <link rel="stylesheet" href="style.css">
     <style>
        
         * {
@@ -14,8 +15,7 @@
         }
 
        
-        body {
-            min-height: 100vh;
+        main {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -198,74 +198,91 @@
     </style>
 </head>
 <body>
-
-    <div class="team-container">
-        
-        <!-- En-tête -->
-        <div class="header-section">
-            <div class="subtitle">Team Section</div>
-            <h1>Meet the Team</h1>
-            <p>Meet our team of professionals to serve you</p>
+    <header>
+        <a href="index.html" class="logo-holder">
+            <img src="img/logo-icon.png" alt="CubeExpress Logo" />
+            <span>CubeExpress</span>
+        </a>
+        <span class="motto">Innovation, Mobility, Freedom</span>
+        <nav>
+            <a href="index.html""><img src="img/home.svg" /><span>HOME</span></a>
+            <a href="features.html"><img src="img/info.svg"><span>FEATURES</span></a>
+            <a href="pricing.html"><img src="img/money.svg"><span>PRICING</span></a>
+            <a href="team.html" class="current"><img src="img/person.svg"><span>TEAM</span></a>
+        </nav>
+    </header>
+    <main>
+        <div class="team-container">
             
-            <div class="buttons">
-                <a href="About us.html" class="btn btn-primary">About us</a>
-                <a href="contact.html" class="btn btn-secondary">Contact</a>
+            <!-- En-tête -->
+            <div class="header-section">
+                <div class="subtitle">Team Section</div>
+                <h1>Meet the Team</h1>
+                <p>Meet our team of professionals to serve you</p>
+                
+                <div class="buttons">
+                    <!--<a href="About us.html" class="btn btn-primary">About us</a>-->
+                    <a href="contact.html" class="btn btn-secondary">Contact</a>
+                </div>
+            </div>
+
+            <!-- Grille des membres -->
+            <div class="team-grid">
+
+            
+
+                
+                <div class="member-card">
+                      <img src="img/photo2.jpg">
+                    <div class="member-info">
+                        <h3> Ouedraogo Charifa</h3>
+                        <div class="social-icons"><span class="icon"></span><span class="icon"></span><span class="icon"></span></div>
+                    </div>
+                </div>
+
+                
+                <div class="member-card">
+                    <img src="img/Christina.jpg">
+                    <div class="member-info">
+                        <h3>Heaven Christina</h3>
+                        <div class="social-icons"><span class="icon"></span><span class="icon"></span><span class="icon"></span></div>
+                    </div>
+                </div>
+
+                
+                <div class="member-card">
+                    <div class="placeholder-img">📷</div>
+                    <div class="member-info">
+                        <h3>Zarrad Yasmine</h3>
+                        <div class="social-icons"><span class="icon"></span><span class="icon"></span><span class="icon"></span></div>
+                    </div>
+                </div>
+
+                
+                <div class="member-card">
+                    <img  src="img/Zackary1.jpg">
+                    <div class="member-info">
+                        <h3>Maidorn Zachary</h3>
+                        <div class="social-icons"><span class="icon"></span><span class="icon"></span><span class="icon"></span></div>
+                    </div>
+                </div>
+
+                
+                <div class="member-card">
+                    <img src="img/Raiso.jpg">
+                    <div class="member-info">
+                        
+                        <h3>Ibrahim Rayso</h3>
+                        <div class="social-icons"><span class="icon"></span><span class="icon"></span><span class="icon"></span></div>
+                    </div>
+                </div>
+
             </div>
         </div>
-
-        <!-- Grille des membres -->
-        <div class="team-grid">
-
-        
-
-            
-            <div class="member-card">
-                  <img src="images/photo2.jpg">
-                <div class="member-info">
-                    <h3> Ouedraogo Charifa</h3>
-                    <div class="social-icons"><span class="icon"></span><span class="icon"></span><span class="icon"></span></div>
-                </div>
-            </div>
-
-            
-            <div class="member-card">
-                <img src="images/Christina.jpg">
-                <div class="member-info">
-                    <h3>Heaven Christina</h3>
-                    <div class="social-icons"><span class="icon"></span><span class="icon"></span><span class="icon"></span></div>
-                </div>
-            </div>
-
-            
-            <div class="member-card">
-                <div class="placeholder-img">📷</div>
-                <div class="member-info">
-                    <h3>Zarrad Yasmine</h3>
-                    <div class="social-icons"><span class="icon"></span><span class="icon"></span><span class="icon"></span></div>
-                </div>
-            </div>
-
-            
-            <div class="member-card">
-                <img  src="images/Zackary1.jpg">
-                <div class="member-info">
-                    <h3>Maidorn Zachary</h3>
-                    <div class="social-icons"><span class="icon"></span><span class="icon"></span><span class="icon"></span></div>
-                </div>
-            </div>
-
-            
-            <div class="member-card">
-                <img src="images/Raiso.jpg">
-                <div class="member-info">
-                    
-                    <h3>Ibrahim Rayso</h3>
-                    <div class="social-icons"><span class="icon"></span><span class="icon"></span><span class="icon"></span></div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
+    </main>
+    <footer>
+        <p class="copyright">© Copyright 2026 CubeExpress Inc.</p>
+        <p class="disclaimer">This is a ficticious website created for a school project. People, products, and companies mentioned do not exist.</p>
+    </footer>
 </body>
 </html>

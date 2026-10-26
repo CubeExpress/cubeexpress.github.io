@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>CubeExpress - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         /* --- Styles Globaux --- */
         * {
@@ -14,8 +15,7 @@
         }
 
         /* --- Le Background coloré (comme la page Team) --- */
-        body {
-            min-height: 100vh;
+        main {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -153,45 +153,62 @@
     </style>
 </head>
 <body>
+    <header>
+        <a href="index.html" class="logo-holder">
+            <img src="img/logo-icon.png" alt="CubeExpress Logo" />
+            <span>CubeExpress</span>
+        </a>
+        <span class="motto">Innovation, Mobility, Freedom</span>
+        <nav>
+            <a href="index.html""><img src="img/home.svg" /><span>HOME</span></a>
+            <a href="features.html"><img src="img/info.svg"><span>FEATURES</span></a>
+            <a href="pricing.html"><img src="img/money.svg"><span>PRICING</span></a>
+            <a href="team.html" class="current"><img src="img/person.svg"><span>TEAM</span></a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-container">
+            <h1>Contact Us</h1>
 
-    <div class="contact-container">
-        <h1>Contact Us</h1>
-
-        <form action="https://formspree.io/f/xaeqgjwe" method="POST">
-            <!-- Champ Nom -->
-            <div class="form-group">
-                <label>Full name <span class="required">*</span></label>
-                <div class="name-row">
-                    <div class="input-wrapper">
-                        <input type="text" name="firstname" required>
-                        <span class="sub-label">First</span>
-                    </div>
-                    <div class="input-wrapper">
-                        <input type="text" name="lastname" required>
-                        <span class="sub-label">Last</span>
+            <form action="https://formspree.io/f/xaeqgjwe" method="POST">
+                <!-- Champ Nom -->
+                <div class="form-group">
+                    <label>Full name <span class="required">*</span></label>
+                    <div class="name-row">
+                        <div class="input-wrapper">
+                            <input type="text" name="firstname" required>
+                            <span class="sub-label">First</span>
+                        </div>
+                        <div class="input-wrapper">
+                            <input type="text" name="lastname" required>
+                            <span class="sub-label">Last</span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Champ Email -->
-            <div class="form-group">
-                <label>Email <span class="required">*</span></label>
-                <input type="email" name="email" required>
-            </div>
+                <!-- Champ Email -->
+                <div class="form-group">
+                    <label>Email <span class="required">*</span></label>
+                    <input type="email" name="email" required>
+                </div>
 
-            <!-- Champ Message -->
-            <div class="form-group">
-                <label>Leave us a few words <span class="required">*</span></label>
-                <textarea name="message" required></textarea>
-            </div>
+                <!-- Champ Message -->
+                <div class="form-group">
+                    <label>Leave us a few words <span class="required">*</span></label>
+                    <textarea name="message" required></textarea>
+                </div>
 
-            <!-- Bouton Envoyer -->
-            <button type="submit" class="submit-btn">Submit</button>
-        </form>
+                <!-- Bouton Envoyer -->
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
 
-        <!-- Lien pour revenir à la page de l'équipe -->
-        <a href="team.html" class="back-link">← Back to team page</a>
-    </div>
-
+            <!-- Lien pour revenir à la page de l'équipe -->
+            <a href="team.html" class="back-link">← Back to team page</a>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">© Copyright 2026 CubeExpress Inc.</p>
+        <p class="disclaimer">This is a ficticious website created for a school project. People, products, and companies mentioned do not exist.</p>
+    </footer>
 </body>
 </html>

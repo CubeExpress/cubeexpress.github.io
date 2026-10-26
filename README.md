@@ -1,22 +1,17 @@
-# uOttawa - SEG2900 Automne/Fall 2026 - Groupe 12
+### uOttawa - SEG2900 Automne/Fall 2026 - Groupe 12
 
-# \| CubeExpress \|
+# CubeExpress
 
 Team members:
+- Zachary Maidorn - 300492548
+- Christina Heaven - 300546320
+- Charifa Ouedraogo - 300491282
+- Rayso Ibrahim - 300522042
+- Yasmine Zarrad - 300557574
 
-Zachary Maidorn - 300492548
+## CubeCar
 
-Christina Heaven - 300546320
-
-Charifa Ouedraogo - 300491282
-
-Rayso Ibrahim - 300522042
-
-Yasmine Zarrad - 300557574
-
-  ---------------
-  \| CubeCar \|
-  ---------------
+Our product:
 
 CubeCar is a compact, portable car-in-a-box. CubeCar is designed to
 allow university students to get where they're going quickly, without
