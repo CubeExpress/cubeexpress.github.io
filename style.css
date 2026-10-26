@@ -109,3 +109,52 @@ footer .disclaimer {
     text-align: right;
     font-size: smaller;
 }
+
+/*Features page styling */
+
+.features-page main{
+    padding: 40px;
+}
+
+.features-page h1 {
+    text-align: center;
+    color: #C3AFFF;
+    font-size: 40px;
+}
+
+.features-page .feature-card {
+    background-color: #f3eeff;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.features-page main,
+.features-page main h1,
+.features-page main h2,
+.features-page main p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.features-page main {
+    background-color: #ffffff;
+    max-width: 1100px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.features-page .feature-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.features-page .feature-text {
+    flex: 1;
+}
+
+.features-page .feature-image {
+    flex: 1;
+    min-height: 180px;
+}
