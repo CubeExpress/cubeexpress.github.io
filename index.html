@@ -56,13 +56,16 @@ and the 3D model.
         </div>
 
 <!-- These are the buttons -->
-        <button> Buy Now →  </button>
+
+    <a href="pricing.html" class="button">
+        Buy Now → 
+    </a>
 
     <!-- This button ships the user to the contact us page -->  
-    <a href="contact.html" class="button1">
+    <button type="button" class="button1" id="contactBtn">
         Contact Us
-    </a>
-        
+    </button>
+
 <!-- These are for the square and the text under them -->
 <div class="squares-container">
 
@@ -108,9 +111,61 @@ and the 3D model.
 
     </div>
     </main>
+
+        <!-- Contact Us Popup -->
+        <div class="contact-overlay" id="contactModal">
+
+            <div class="contact-container">
+
+                <!-- Close button -->
+                <button type="button" class="close-btn" id="closeContact"
+                        aria-label="Close contact form">
+                    &times;
+                </button>
+
+                <h1>Contact Us</h1>
+<!------------------------------------------------------------------------Charifa code starts here--------------------------------------------------->
+                <form action="https://formspree.io/f/xaeqgjwe" method="POST">
+
+                    <!-- Full name -->
+                    <div class="form-group">
+                        <label>Full name <span class="required">*</span></label>
+                        <div class="name-row">
+                            <div class="input-wrapper">
+                                <input type="text" name="firstname" required>
+                                <span class="sub-label">First</span>
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="text" name="lastname" required>
+                                <span class="sub-label">Last</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label>Email <span class="required">*</span></label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="form-group">
+                        <label>Leave us a few words <span class="required">*</span> </label>
+                        <textarea name="message" placeholder="Your message"required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn"> Submit </button>
+                </form>
+            </div>
+        </div>
+
+        <!----------------Charif code stops here-->
     <footer>
         <p class="copyright">© Copyright 2026 CubeExpress Inc.</p>
         <p class="disclaimer">This is a ficticious website created for a school project. People, products, and companies mentioned do not exist.</p>
     </footer>
+
+    <!-- JavaScript opens and closes the contact form -->
+    <script src="script.js"></script> 
 </body>
 </html>
