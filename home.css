@@ -370,3 +370,23 @@ body.modal-open {
 .contact-overlay.show .contact-container {
     animation: popupAnimation 0.5s ease-out;
 }
+
+
+/* Animation for the 3D Spline cube */
+
+@keyframes cubeEntrance {
+    from {
+        opacity: 0;
+        transform: translateY(60px) scale(0.95);
+    }
+
+    to { 
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Makes the cube fade in and rise */
+.spline-container {
+    animation: cubeEntrance 1.5s ease-out 0.3s both;
+}

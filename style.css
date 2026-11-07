@@ -119,7 +119,7 @@ footer .disclaimer {
 
 .features-page h1 {
     text-align: center;
-    color: #8a5cec;
+    color: #C3AFFF;
     font-size: 40px;
 }
 
@@ -158,4 +158,13 @@ footer .disclaimer {
 .features-page .feature-image {
     flex: 1;
     min-height: 180px;
+}
+
+/* Added code for background*/
+body.features-page {
+    background-image: url("img/Dreamy Lavender Cream Gradient.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

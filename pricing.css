@@ -1,10 +1,23 @@
 /* General Style and Background */
 main {
+    /*(I put the background image in)*/
+    background-image: url("img/Dreamy Lavender Cream Gradient.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    padding: 40px 20px;
+
+    display: flex;
+    justify-content: center;  
+    
+    /* (The old code)
     Background-color: #ccbdf9;
     margin: 0;
     padding: 40px 20px;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .pricing-container{
