@@ -125,7 +125,7 @@ footer .disclaimer {
 
 .features-page .feature-card {
     background-color: #f3eeff;
-    padding: 25px;
+    padding: 15px 25px; /* I change yo padding to make it shorter (og was 25px- Christina*/
     border-radius: 15px;
     margin-bottom: 25px;
 }
@@ -155,12 +155,30 @@ footer .disclaimer {
     flex: 1;
 }
 
+
+/* Feature image container */
 .features-page .feature-image {
     flex: 1;
+    min-width: 0;
     min-height: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Added code for background*/
+/* Feature images */
+.features-page .feature-image img {
+    display: block;
+    width: 100%;
+    max-width: 400px;  
+    height: auto;
+    max-height: 230px; 
+    object-fit: contain;
+}
+
+
+/* Added code for background(Christina)*/
 body.features-page {
     background-image: url("img/Dreamy Lavender Cream Gradient.png");
     background-size: cover;
@@ -168,3 +186,4 @@ body.features-page {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
