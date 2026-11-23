@@ -1,0 +1,26 @@
+Overall Look and Feel:
+The CubeExpress website will have a futuristic, clean, and modern design. The goal is to create a visually appealing and user-friendly website that reflects innovation and technology while keeping navigation simple. 
+
+Colours:
+Our website will use a combination of pastel blue (#B0C6FF), purple (#C3AFFF), and yellow (#FFF8B0). These colours will be used throughout the website for backgrounds, buttons, headings, and other design elements to maintain a consistent appearance.
+
+Layout / Spacing:
+The website will have a responsive layout that adjusts to different screen sizes, including phones, tablets, and computers. We will use consistent spacing and alignment to keep the pages organized and easy to navigate.
+
+Typography:
+We use one main font: Segoe UI. The fonts are chosen based on readability and how well they match the futuristic design or the car. Headings will be larger and bolder to make important information stand out.
+
+Buttons / Forms / Lists:
+Buttons will have a modern design with slightly rounded corners and colours that match our website's theme. Forms and lists will be simple, organized, and easy to use. All buttons will follow a consistent style across the website.
+
+Icons:
+We will use line-based icons with a simple and minimalist appearance. Icons will have consistent sizes and styles to match the overall design of the website.
+
+Interactivity:
+The website will include interactive elements such as hover effects, clickable buttons, and smooth transitions. These features will make the website more engaging while keeping it easy to navigate.
+
+Accessibility:
+We will make the website accessible by using readable fonts, appropriate colour contrast, and alternative text for images. We will also aim to make the website easy to navigate using a keyboard and compatible with different screen sizes.
+
+Code Standards:
+We will keep our HTML and CSS code organized, readable, and consistent across all webpages. We will use proper indentation, meaningful class names, and comments when necessary. Team members will follow the same coding practices to make the website easier to maintain and update. 

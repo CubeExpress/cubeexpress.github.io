@@ -1,5 +1,6 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Segoe UI' , Tahoma, Geneva, Verdana,sans-serif; 
+    box-sizing: border-box;
 }
 
 html {
@@ -9,7 +10,7 @@ html {
 /* Header styles */
 
 header {
-    height: 3em;
+    height: 4em;
     display: grid;
     padding: 8px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -95,7 +96,7 @@ body {
 /* Footer styles */
 
 footer {
-    height: 5em;
+    height: 6em;
     padding: 8px;
     background: #C3AFFF
 }
@@ -125,7 +126,7 @@ footer .disclaimer {
 
 .features-page .feature-card {
     background-color: #f3eeff;
-    padding: 25px;
+    padding: 15px 25px; /* I change yo padding to make it shorter (og was 25px- Christina*/
     border-radius: 15px;
     margin-bottom: 25px;
 }
@@ -155,7 +156,35 @@ footer .disclaimer {
     flex: 1;
 }
 
+
+/* Feature image container */
 .features-page .feature-image {
     flex: 1;
+    min-width: 0;
     min-height: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/* Feature images */
+.features-page .feature-image img {
+    display: block;
+    width: 100%;
+    max-width: 400px;  
+    height: auto;
+    max-height: 230px; 
+    object-fit: contain;
+}
+
+
+/* Added code for background(Christina)*/
+body.features-page {
+    background-image: url("img/Dreamy Lavender Cream Gradient.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
