@@ -10,22 +10,21 @@ html {
 /* Header styles */
 
 header {
-    height: 4em;
+    height: 3em;
     display: grid;
     padding: 8px;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     background: #C3AFFF;
-    font-family: 'Inter', Tahoma, Verdana, sans-serif;
+    box-sizing: content-box;
 }
 
 .logo-holder {
-    height: 4em;
+    height: 3em;
     display: flex;
     align-items: center;
     text-decoration: none;
     color: inherit;
-    transform: translateY(-7px); /* I added this to move the logo up a bit (Christina) */
 }
 
 .logo-holder span {
