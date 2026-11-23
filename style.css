@@ -20,11 +20,12 @@ header {
 }
 
 .logo-holder {
-    height: 3em;
+    height: 4em;
     display: flex;
     align-items: center;
     text-decoration: none;
     color: inherit;
+    transform: translateY(-7px); /* I added this to move the logo up a bit (Christina) */
 }
 
 .logo-holder span {
