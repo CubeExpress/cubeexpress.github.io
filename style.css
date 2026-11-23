@@ -15,6 +15,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     background: #C3AFFF;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .logo-holder {
